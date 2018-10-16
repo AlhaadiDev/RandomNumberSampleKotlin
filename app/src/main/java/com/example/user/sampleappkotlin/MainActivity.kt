@@ -45,4 +45,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(randomIntent)
     }
 
+    fun seeListPage(view: View){
+        val listIntent = Intent(this, ListActivity::class.java)
+        startActivity(listIntent)
+    }
+
 }
